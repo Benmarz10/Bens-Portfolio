@@ -35,11 +35,19 @@ body {
 .primary-header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+a:hover{
+    background: #ff5757;
+    transition: .5s;
 }
 
 .Me {
